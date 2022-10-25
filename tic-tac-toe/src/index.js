@@ -30,6 +30,7 @@ class Board extends React.Component {
     squares[i] = "x";
     this.setState({ squares: squares });
   }
+
   renderSquare(i) {
     return (
       <Square
